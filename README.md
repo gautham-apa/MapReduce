@@ -17,7 +17,7 @@ This system can handle worker crashes and failures by constantly observing the t
 #### Usage
 Clone the repository and cd into MapReduce/src/main directory on your terminal. Run the following command to create a fresh build of plugin wc.go 
 ```
-go build -buildmode=plugin ../mrapps/crash.go
+go build -buildmode=plugin ../mrapps/wc.go
 ```
 On one terminal window, run the coordinator process from the same directory using
 ```
